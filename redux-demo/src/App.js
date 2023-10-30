@@ -18,7 +18,7 @@ function App() {
           dispatch(increment());
         }}
       >
-        +
+        加
       </button>
       {count}
       <button
@@ -26,7 +26,7 @@ function App() {
           dispatch(decrement());
         }}
       >
-        -
+        减
       </button>
       <input
         onChange={(e) => {
